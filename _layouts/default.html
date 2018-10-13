@@ -13,6 +13,8 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
     <style>
       .button {
         border-radius: 2px;
@@ -55,7 +57,11 @@
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages</small></p>
+        <p><small>Hosted on GitHub Pages &mdash; 
+          <span id="busuanzi_container_site_pv" style='display:none'>
+          Total<span id="busuanzi_value_site_pv"></span>views
+          </span>  
+        </small></p>
       </footer>
     </div>
 
