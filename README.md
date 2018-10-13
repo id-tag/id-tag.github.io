@@ -1,4 +1,4 @@
-id-tag | Blog
+id-tag Blog
 
 # Contents
 
